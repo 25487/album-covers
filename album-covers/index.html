@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Album Covers</title>
+    <meta name="author" content="Taurese Usman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <h1>Mijn Muziek Selectie</h1>
+    <div class="cover">
+      <img src="images/IMG_9067.JPG" alt="" width="300">
+      <article>
+        <h3>The Weeknd</h3>
+        <h4>My Dear Melancholy</h4>
+
+      <ul>
+        <li>Call Out My Name | 3:48</li>
+        <li>Try Me | 3:41</li>
+        <li>Wasted Times | 3:40</li>
+        <li>I Was Never There | 4:01</li>
+        <li>Hurt You | 3:50</li>
+        <li>Privilege | 2:51</li>
+    </ul>
+    </article>
+</div>
+<div class="cover">
+  <img src="images/IMG_9066.JPG" alt="" width="300">
+  <article>
+    <h3>Billie Eilish</h3>
+    <h4>dont smile at me</h4>
+
+  <ul>
+    <li>COPYCAT| 3:15</li>
+    <li>idontwannabeyouanymore | 3:41</li>
+    <li>my boy | 2:51</li>
+    <li>watch | 2:58</li>
+    <li>party favor | 3:25</li>
+    <li>bellyache | 2:59</li>
+    <li>ocean eyes | 3:30</li>
+    <li>hostage| 3:49</li>
+    <li>&burn | 2:59</li>
+</ul>
+</article>
+</div>
+
+<div class="cover">
+<img src="images/IMG_9064.JPG" alt="" width="300">
+    <article>
+      <h3>The Weeknd</h3>
+      <h4>Starboy</h4>
+    <ul>
+      <li>Starboy ft. Daft Punk | 3:50</li>
+      <li>Party Monster | 4:09</li>
+      <li>False Alarm | 3:40</li>
+      <li>Reminder | 3:40</li>
+      <li>Rockin' | 3:39</li>
+      <li>Secrets | 4:26</li>
+      <li>True Colors | 3:26</li>
+      <li>Stargirl Interlude ft. Lana Del Rey | 1:52</li>
+      <li>Sidewalks ft. Kendrick Lamar | 3:51</li>
+      <li>Six Feet Under ft. Future | 3:58</li>
+      <li>Love to Lay | 3:43</li>
+      <li>A Lonely Night | 3:40</li>
+      <li>Attention | 3:18</li>
+      <li>Ordinary Life | 3:42</li>
+      <li>Nothing Without You | 3:19</li>
+      <li>All I Know ft. Future | 5:21</li>
+      <li>Die For You | 4:20</li>
+      <li>I Feel It Coming ft. Daft Punk | 4:29</li>
+  </ul>
+  </article>
+</div>
+<div class="cover">
+  <img src="images/IMG_9065.JPG" alt="" width="300">
+      <article>
+        <h3>Travis Scott</h3>
+        <h4>Astroworld</h4>
+
+      <ul>
+        <li>STARGAZING | 4:31</li>
+        <li>CAROUSEL | 3:00</li>
+        <li>SICKO MODE | 5:13</li>
+        <li>R.I.P SCREW | 3:06</li>
+        <li>STOP TRYING TO BE GOD | 5:38</li>
+        <li>NO BYSTANDERS | 3:38</li>
+        <li>SKELETONS ft. The Weeknd| 2:26</li>
+        <li>WAKE UP | 3:52</li>
+        <li>5% TINT| 3:16</li>
+        <li>NC-17 | 2:37</li>
+        <li>ASTROTHUNDER | 2:23</li>
+        <li>YOSEMITE | 2:30</li>
+        <li>CAN'T SAY | 3:18</li>
+        <li>WHO? WHAT! | 2:57</li>
+        <li>BUTTERFLY EFFECT | 3:11</li>
+        <li>HOUSTONFORNICATION | 3:28</li>
+        <li>COFFEE BEAN | 3:29</li>
+    </ul>
+    </article>
+</div>
+<div class="cover">
+  <img src="images/IMG_9068.JPG" alt="" width="300">
+  <article>
+    <h3>Michael Jackson</h3>
+    <h4>Thriller</h4>
+
+  <ul>
+    <li>Wanna Be Startin' Somethin' | 6:03</li>
+    <li>Baby Be Mine | 4:20</li>
+    <li>The Girl Is Mine | 3:42</li>
+    <li>Thriller | 5:58</li>
+    <li>Beat It | 4:18</li>
+    <li>Billie Jean | 4:54</li>
+    <li>Human Nature | 4:06</li>
+    <li>P.Y.T | 3:59</li>
+    <li>The Lady in My Life | 4:59</li>
+</ul>
+</article>
+</div>
+<div class="cover">
+  <img src="images/IMG_9069.JPG" alt="" width="300">
+  <article>
+      <h3>The Weeknd</h3>
+    <h4>Trilogy</h4>
+
+  <ul>
+    <li>High For This | 4:09</li>
+    <li>What You Need | 3:16</li>
+    <li>House of Balloons/Glass Table Girls | 6:47</li>
+    <li>The Morning | 5:14</li>
+    <li>Wicked Games | 5:25</li>
+    <li>The Party & The After Party | 7:39</li>
+    <li>Coming Down | 4:55</li>
+    <li>Loft Music | 6:03</li>
+    <li>The Knowing | 5:41</li>
+    <li>Twenty Eight | 4:18</li>
+</ul>
+</article>
+</div>
+
+
+
+<script>
+let alleCovers = document.querySelectorAll('.cover');
+
+        const classWelMuis = (evt) => {
+            evt.target.classList.remove('geenMuis');
+            evt.target.classList.add('welMuis');
+        }
+        const classGeenMuis = (evt) => {
+            evt.target.classList.remove('welMuis');
+            evt.target.classList.add('geenMuis');
+        }
+        for(let i = 0; i < alleCovers.length; i++) {
+            alleCovers[i].addEventListener('mouseenter', classWelMuis);
+            alleCovers[i].addEventListener('mouseleave', classGeenMuis);
+        }
+        </script>
+        <footer>
+        <div id="validatie">
+      <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+          <img src="valid-html5-blue.png" alt="Valide HTML5"></a>
+      </div>
+      <div id="validatie_css">
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+       <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+              alt="Valide CSS!"/>
+            </a>
+            </div>
+          </footer>
+
+  </body>
+</html>
